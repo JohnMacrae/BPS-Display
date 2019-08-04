@@ -4,8 +4,8 @@
 
 
 /* change it with your ssid-password */
-const char* ssid = "agboat";
-const char* password = "jram7757";
+const char* ssid = "";
+const char* password = "";
 
 #define CELL1    "bps/cell1"
 #define CELL2    "bps/cell2"
