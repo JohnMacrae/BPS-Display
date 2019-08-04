@@ -133,7 +133,7 @@ void mqttconnect() {
     /* client ID */
     String clientId = "ESP32Display";
     /* connect now */
-    if (client.connect(clientId.c_str(), "mosquitto", "jram7757")) {
+    if (client.connect(clientId.c_str(), "", "")) {
       Serial.println("connected");
       /* subscribe topic with default QoS 0*/
       client.subscribe("bps/bank");
